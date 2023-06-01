@@ -1,0 +1,18 @@
+package Forever;
+
+public abstract class Attraction { //설계자로서의 역활, 실체화는 안됨.
+	int price;
+	int sales;
+
+	abstract boolean canRide(Child child);
+	
+	void ride(Child child) {
+		if(canRide(child)) {
+			sales += price ;
+			if(child.withParent = true) {
+				sales += price ;
+			}
+		}
+	}
+
+}
