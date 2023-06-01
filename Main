@@ -1,0 +1,20 @@
+package Forever;
+
+public class day0531 {
+
+	public static void main(String[] args) {
+			
+		Parent 정훈 = new Parent();
+		Child 민준 = new Child (5,100,false, null); //아예 못함
+		Child 민성 = new Child(10, 140, false, 정훈); //무조건 탐.
+		Child 민주 = new Child(10, 140, true, 정훈); //모든조건 만족, 심장질환있음
+		
+		RollerCoaster 롤러코스터 = new RollerCoaster(100);
+		MerryGoRound 회전목마 = new MerryGoRound(50); // 생성자가 없어서 빨간줄 생김. 가격을 정해주는 일(입력받아야함) price 변수에 입력 2.
+		BumperCar 범퍼카 = new BumperCar(70);
+		
+
+			
+	}
+
+}
